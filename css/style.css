@@ -1,0 +1,151 @@
+*{
+	transition: all .1s ease-in;
+}
+
+body{
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	background-color: #3399CC;
+	margin: 0;
+	height: calc(100vh - 32px);
+	border: 16px solid #2B81AC;
+}
+
+
+main{
+	width: 600px;
+	margin: 0 auto;
+}
+
+ul{
+	list-style: none;
+	color: #ffffff;
+	text-align: center;
+}
+
+li{
+	display: inline-block;
+	border: 5px solid #ffffff;
+	margin: -4px;
+	padding-top: 20px;
+	height: 60px;
+}
+
+ul.one{
+	margin: 0;
+	padding: 0;
+}
+
+li.lisbon{
+	width: 260px;
+	text-align: center;
+	background-color: #3399CC;
+}
+
+li.paris{
+	width: 160px;
+	text-align: center;
+	background-color: #33CCCC;
+}
+
+li.belgrad{
+	width: 160px;
+	text-align: center;
+	background-color: #996699;
+}
+
+/* second ul*/
+
+ul.two{
+	margin: 3px auto;
+	padding: 0;
+}
+
+li.moscow{
+	width: 126.5px;
+	text-align: center;
+	background-color: #C24747;
+}
+
+li.aviv{
+	width: 126.5px;
+	text-align: center;
+	background-color: #E2674A;
+}
+
+li.cair{
+	width: 160px;
+	text-align: center;
+	background-color: #FFCC66;
+}
+
+li.york{
+	width: 160px;
+	text-align: center;
+	background-color: #99CC99;
+}
+
+/*therd ul*/
+
+ul.three{
+	margin: 0px auto;
+	padding: 0;
+}
+
+li.delhi{
+	width: 126.5px;
+	text-align: center;
+	background-color: #669999;
+}
+
+li.francisco{
+	width: 293px;
+	text-align: center;
+	background-color: #CC6699;
+}
+
+li.tokyo{
+	width: 160px;
+	text-align: center;
+	background-color: #339966;
+}
+
+ul.last{
+	margin: 0px auto;
+	padding: 0;
+}
+
+li.sydney{
+	width: 98.7%;
+	text-align: center;
+	background-color: #666699;
+}
+
+span{
+	color: #CDCDDD;
+}
+
+
+footer, header{
+	width: 600px;
+	margin: 0 auto;
+}
+
+p, h1{
+	color: #ffffff;
+	text-align: left;
+}
+
+li:hover{
+	opacity: 0.8;
+	color: black;
+	cursor: pointer;
+	text-shadow: 1px -2px 8px #431756;
+	font-size: 17px;
+}
+
+span:hover{
+	color: #ffffff;
+}
+
+/*Як зробити зворотнє приховування???
+Коли наводиш на текст його добре видно, а все інше розмите*/
