@@ -6,123 +6,130 @@ body{
 	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
 	background-color: #3399CC;
 	margin: 0;
-	height: calc(100vh - 32px);
-	border: 16px solid #2B81AC;
+	/*height: calc(100px 40px);*/
+	border: 25px solid #2B81AC;
 }
 
 
 main{
-	width: 600px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
 ul{
-	list-style: none;
+ 	list-style: none;
 	color: #ffffff;
 	text-align: center;
 }
 
 li{
 	display: inline-block;
-	border: 5px solid #ffffff;
+	border: 3px solid #ffffff;
 	margin: -4px;
 	padding-top: 20px;
-	height: 60px;
+	height: 90px;
 }
 
-ul.one{
-	margin: 0;
+ul.listitem1{
+	margin: 1px auto;
 	padding: 0;
+	opacity: inherit;
 }
 
 li.lisbon{
-	width: 260px;
+	width: 50%;
 	text-align: center;
 	background-color: #3399CC;
 }
 
 li.paris{
-	width: 160px;
+	width: 25%;
 	text-align: center;
 	background-color: #33CCCC;
 }
 
 li.belgrad{
-	width: 160px;
+	width: 25%;
 	text-align: center;
 	background-color: #996699;
 }
 
-/* second ul*/
+/* другий ul*/
 
-ul.two{
-	margin: 3px auto;
+ul.listitem2{
+	margin: 1px auto;
 	padding: 0;
+	opacity: inherit;
 }
 
 li.moscow{
-	width: 126.5px;
-	text-align: center;
+	width: 25%;
+	text-align: inherit;
 	background-color: #C24747;
 }
 
 li.aviv{
-	width: 126.5px;
-	text-align: center;
+	width: 25%;
+	text-align: inherit;
 	background-color: #E2674A;
 }
 
 li.cair{
-	width: 160px;
-	text-align: center;
+	width: 25%;
+	text-align: inherit;
 	background-color: #FFCC66;
 }
 
 li.york{
-	width: 160px;
-	text-align: center;
+	width: 25%;
+	text-align: inherit;
 	background-color: #99CC99;
 }
 
-/*therd ul*/
+/*третій ul*/
 
-ul.three{
-	margin: 0px auto;
+ul.listitem3{
+	margin: 1px auto;
 	padding: 0;
+	opacity: inherit;
+	width: 100%;
 }
 
 li.delhi{
-	width: 126.5px;
+	width: 25%;
 	text-align: center;
 	background-color: #669999;
 }
 
 li.francisco{
-	width: 293px;
-	text-align: center;
+	width: 50%;
+	text-align: inherit;
 	background-color: #CC6699;
+	opacity: inherit;
 }
 
 li.tokyo{
-	width: 160px;
+	width: 25%;
 	text-align: center;
 	background-color: #339966;
 }
 
-ul.last{
-	margin: 0px auto;
+ul.lastlist{
+	margin: 1px auto;
 	padding: 0;
+	opacity: inherit;
 }
 
 li.sydney{
-	width: 98.7%;
+	width: 100%;
 	text-align: center;
 	background-color: #666699;
+	opacity: inherit;
 }
 
-span{
+/*span{
 	color: #CDCDDD;
-}
+}*/
 
 
 footer, header{
@@ -130,14 +137,14 @@ footer, header{
 	margin: 0 auto;
 }
 
-p, h1{
-	color: #ffffff;
+p, h3{
+	color: #FFFFFF;
 	text-align: left;
 }
 
 li:hover{
 	opacity: 0.8;
-	color: black;
+	color: none;
 	cursor: pointer;
 	text-shadow: 1px -2px 8px #431756;
 	font-size: 17px;
@@ -146,6 +153,3 @@ li:hover{
 span:hover{
 	color: #ffffff;
 }
-
-/*Як зробити зворотнє приховування???
-Коли наводиш на текст його добре видно, а все інше розмите*/
