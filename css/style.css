@@ -8,11 +8,12 @@ body{
 	margin: 0;
 	/*height: calc(100px 40px);*/
 	border: 25px solid #2B81AC;
+	box-sizing: border-box;
 }
 
 
 main{
-	width: 1000px;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -20,6 +21,7 @@ ul{
  	list-style: none;
 	color: #ffffff;
 	text-align: center;
+	box-sizing: border-box;
 }
 
 li{
@@ -28,6 +30,7 @@ li{
 	margin: -4px;
 	padding-top: 20px;
 	height: 90px;
+	box-sizing: border-box;
 }
 
 ul.listitem1{
@@ -127,13 +130,13 @@ li.sydney{
 	opacity: inherit;
 }
 
-/*span{
+span{
 	color: #CDCDDD;
-}*/
+}
 
 
 footer, header{
-	width: 600px;
+	width: 50%;
 	margin: 0 auto;
 }
 
